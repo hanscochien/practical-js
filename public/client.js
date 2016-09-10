@@ -22,7 +22,7 @@ var todoList = {
     
     // Get number of completed todos.
     this.todos.forEach(function(todo) {
-      if (!todo.completed) {
+      if (todo.completed) {
         completedTodos++;
       }
     });
